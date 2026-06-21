@@ -1,0 +1,22 @@
+/*
+Theme Name: Torex Safari
+Theme URI: https://github.com/robbie7799/torex-safari
+Author: robbie7799
+Author URI: https://github.com/robbie7799
+Description: Torex Safari — modern, customizable WordPress theme focused on Uganda tourism. Includes an "Attractions" custom post type, regions taxonomy, and Customizer settings for UTB/URSB links and branding.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: torex-safari
+Tags: travel, tourism, uganda, safari, responsive, custom-post-type
+*/
+:root{
+  --primary:#0b5a3d;
+  --accent:#f4b400;
+}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#222}
+header.site-header{background:var(--primary);color:#fff;padding:20px}
+.site-title{margin:0}
+.main{padding:20px}
+.attraction-grid{display:flex;flex-wrap:wrap;gap:16px}
+.attraction-card{border:1px solid #eee;padding:12px;width:300px}
+.brand-links a{color:var(--accent)}
